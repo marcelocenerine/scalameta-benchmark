@@ -1,0 +1,846 @@
+[info] Running (fork) org.openjdk.jmh.Main -rf json
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenBenchmark.children_current
+[info] # Parameters: (treeType = scala.meta.Term.Name)
+[info] # Run progress: 0.00% complete, ETA 01:13:20
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 3.801 ns/op
+[info] # Warmup Iteration   2: 3.976 ns/op
+[info] # Warmup Iteration   3: 3.120 ns/op
+[info] # Warmup Iteration   4: 3.135 ns/op
+[info] # Warmup Iteration   5: 3.133 ns/op
+[info] # Warmup Iteration   6: 3.122 ns/op
+[info] # Warmup Iteration   7: 3.125 ns/op
+[info] # Warmup Iteration   8: 3.119 ns/op
+[info] # Warmup Iteration   9: 3.126 ns/op
+[info] # Warmup Iteration  10: 3.120 ns/op
+[info] Iteration   1: 3.115 ns/op
+[info] Iteration   2: 3.140 ns/op
+[info] Iteration   3: 3.122 ns/op
+[info] Iteration   4: 3.130 ns/op
+[info] Iteration   5: 3.117 ns/op
+[info] Iteration   6: 3.121 ns/op
+[info] Iteration   7: 3.116 ns/op
+[info] Iteration   8: 3.125 ns/op
+[info] Iteration   9: 3.133 ns/op
+[info] Iteration  10: 3.121 ns/op
+[info] Result "scalafix.benchmarks.ChildrenBenchmark.children_current":
+[info]   3.124 ±(99.9%) 0.012 ns/op [Average]
+[info]   (min, avg, max) = (3.115, 3.124, 3.140), stdev = 0.008
+[info]   CI (99.9%): [3.112, 3.136] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenBenchmark.children_current
+[info] # Parameters: (treeType = scala.meta.Term.Return)
+[info] # Run progress: 4.55% complete, ETA 01:10:28
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 7.832 ns/op
+[info] # Warmup Iteration   2: 7.246 ns/op
+[info] # Warmup Iteration   3: 6.922 ns/op
+[info] # Warmup Iteration   4: 6.928 ns/op
+[info] # Warmup Iteration   5: 6.940 ns/op
+[info] # Warmup Iteration   6: 6.932 ns/op
+[info] # Warmup Iteration   7: 6.960 ns/op
+[info] # Warmup Iteration   8: 6.972 ns/op
+[info] # Warmup Iteration   9: 6.937 ns/op
+[info] # Warmup Iteration  10: 6.944 ns/op
+[info] Iteration   1: 6.966 ns/op
+[info] Iteration   2: 7.003 ns/op
+[info] Iteration   3: 7.012 ns/op
+[info] Iteration   4: 6.941 ns/op
+[info] Iteration   5: 6.958 ns/op
+[info] Iteration   6: 6.878 ns/op
+[info] Iteration   7: 6.456 ns/op
+[info] Iteration   8: 6.225 ns/op
+[info] Iteration   9: 6.206 ns/op
+[info] Iteration  10: 6.262 ns/op
+[info] Result "scalafix.benchmarks.ChildrenBenchmark.children_current":
+[info]   6.691 ±(99.9%) 0.537 ns/op [Average]
+[info]   (min, avg, max) = (6.206, 6.691, 7.012), stdev = 0.355
+[info]   CI (99.9%): [6.154, 7.228] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenBenchmark.children_current
+[info] # Parameters: (treeType = scala.meta.Term.Match)
+[info] # Run progress: 9.09% complete, ETA 01:07:03
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 44.790 ns/op
+[info] # Warmup Iteration   2: 43.210 ns/op
+[info] # Warmup Iteration   3: 41.249 ns/op
+[info] # Warmup Iteration   4: 40.919 ns/op
+[info] # Warmup Iteration   5: 40.884 ns/op
+[info] # Warmup Iteration   6: 40.997 ns/op
+[info] # Warmup Iteration   7: 41.077 ns/op
+[info] # Warmup Iteration   8: 40.887 ns/op
+[info] # Warmup Iteration   9: 40.956 ns/op
+[info] # Warmup Iteration  10: 41.300 ns/op
+[info] Iteration   1: 41.293 ns/op
+[info] Iteration   2: 41.097 ns/op
+[info] Iteration   3: 41.047 ns/op
+[info] Iteration   4: 40.977 ns/op
+[info] Iteration   5: 41.069 ns/op
+[info] Iteration   6: 41.174 ns/op
+[info] Iteration   7: 40.715 ns/op
+[info] Iteration   8: 40.872 ns/op
+[info] Iteration   9: 40.984 ns/op
+[info] Iteration  10: 40.939 ns/op
+[info] Result "scalafix.benchmarks.ChildrenBenchmark.children_current":
+[info]   41.017 ±(99.9%) 0.243 ns/op [Average]
+[info]   (min, avg, max) = (40.715, 41.017, 41.293), stdev = 0.160
+[info]   CI (99.9%): [40.774, 41.259] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenBenchmark.children_current
+[info] # Parameters: (treeType = scala.meta.Term.If)
+[info] # Run progress: 13.64% complete, ETA 01:04:01
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 15.987 ns/op
+[info] # Warmup Iteration   2: 15.237 ns/op
+[info] # Warmup Iteration   3: 13.496 ns/op
+[info] # Warmup Iteration   4: 13.523 ns/op
+[info] # Warmup Iteration   5: 13.536 ns/op
+[info] # Warmup Iteration   6: 13.538 ns/op
+[info] # Warmup Iteration   7: 13.503 ns/op
+[info] # Warmup Iteration   8: 13.526 ns/op
+[info] # Warmup Iteration   9: 13.482 ns/op
+[info] # Warmup Iteration  10: 13.498 ns/op
+[info] Iteration   1: 13.538 ns/op
+[info] Iteration   2: 13.543 ns/op
+[info] Iteration   3: 13.445 ns/op
+[info] Iteration   4: 13.557 ns/op
+[info] Iteration   5: 13.484 ns/op
+[info] Iteration   6: 13.529 ns/op
+[info] Iteration   7: 13.499 ns/op
+[info] Iteration   8: 13.533 ns/op
+[info] Iteration   9: 13.503 ns/op
+[info] Iteration  10: 13.542 ns/op
+[info] Result "scalafix.benchmarks.ChildrenBenchmark.children_current":
+[info]   13.517 ±(99.9%) 0.052 ns/op [Average]
+[info]   (min, avg, max) = (13.445, 13.517, 13.557), stdev = 0.034
+[info]   CI (99.9%): [13.465, 13.569] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenBenchmark.children_current
+[info] # Parameters: (treeType = scala.meta.Term.Try)
+[info] # Run progress: 18.18% complete, ETA 01:00:33
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 104.502 ns/op
+[info] # Warmup Iteration   2: 68.469 ns/op
+[info] # Warmup Iteration   3: 66.322 ns/op
+[info] # Warmup Iteration   4: 66.241 ns/op
+[info] # Warmup Iteration   5: 66.335 ns/op
+[info] # Warmup Iteration   6: 66.409 ns/op
+[info] # Warmup Iteration   7: 66.288 ns/op
+[info] # Warmup Iteration   8: 66.280 ns/op
+[info] # Warmup Iteration   9: 66.409 ns/op
+[info] # Warmup Iteration  10: 72.173 ns/op
+[info] Iteration   1: 76.415 ns/op
+[info] Iteration   2: 76.592 ns/op
+[info] Iteration   3: 76.753 ns/op
+[info] Iteration   4: 76.840 ns/op
+[info] Iteration   5: 76.159 ns/op
+[info] Iteration   6: 76.442 ns/op
+[info] Iteration   7: 76.583 ns/op
+[info] Iteration   8: 76.134 ns/op
+[info] Iteration   9: 76.177 ns/op
+[info] Iteration  10: 76.228 ns/op
+[info] Result "scalafix.benchmarks.ChildrenBenchmark.children_current":
+[info]   76.432 ±(99.9%) 0.386 ns/op [Average]
+[info]   (min, avg, max) = (76.134, 76.432, 76.840), stdev = 0.256
+[info]   CI (99.9%): [76.046, 76.819] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenBenchmark.children_current
+[info] # Parameters: (treeType = scala.meta.Defn.Def)
+[info] # Run progress: 22.73% complete, ETA 00:57:08
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 1498.975 ns/op
+[info] # Warmup Iteration   2: 1422.897 ns/op
+[info] # Warmup Iteration   3: 1428.625 ns/op
+[info] # Warmup Iteration   4: 1418.150 ns/op
+[info] # Warmup Iteration   5: 1415.372 ns/op
+[info] # Warmup Iteration   6: 1429.407 ns/op
+[info] # Warmup Iteration   7: 1428.033 ns/op
+[info] # Warmup Iteration   8: 1426.171 ns/op
+[info] # Warmup Iteration   9: 1434.923 ns/op
+[info] # Warmup Iteration  10: 1423.093 ns/op
+[info] Iteration   1: 1426.331 ns/op
+[info] Iteration   2: 1428.599 ns/op
+[info] Iteration   3: 1430.055 ns/op
+[info] Iteration   4: 1423.068 ns/op
+[info] Iteration   5: 1423.974 ns/op
+[info] Iteration   6: 1419.903 ns/op
+[info] Iteration   7: 1429.929 ns/op
+[info] Iteration   8: 1424.130 ns/op
+[info] Iteration   9: 1424.453 ns/op
+[info] Iteration  10: 1425.859 ns/op
+[info] Result "scalafix.benchmarks.ChildrenBenchmark.children_current":
+[info]   1425.630 ±(99.9%) 4.864 ns/op [Average]
+[info]   (min, avg, max) = (1419.903, 1425.630, 1430.055), stdev = 3.217
+[info]   CI (99.9%): [1420.766, 1430.494] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenBenchmark.children_new
+[info] # Parameters: (treeType = scala.meta.Term.Name)
+[info] # Run progress: 27.27% complete, ETA 00:53:45
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 3.836 ns/op
+[info] # Warmup Iteration   2: 4.065 ns/op
+[info] # Warmup Iteration   3: 3.247 ns/op
+[info] # Warmup Iteration   4: 3.237 ns/op
+[info] # Warmup Iteration   5: 3.246 ns/op
+[info] # Warmup Iteration   6: 3.245 ns/op
+[info] # Warmup Iteration   7: 3.239 ns/op
+[info] # Warmup Iteration   8: 3.248 ns/op
+[info] # Warmup Iteration   9: 3.238 ns/op
+[info] # Warmup Iteration  10: 3.239 ns/op
+[info] Iteration   1: 3.236 ns/op
+[info] Iteration   2: 3.239 ns/op
+[info] Iteration   3: 3.258 ns/op
+[info] Iteration   4: 3.244 ns/op
+[info] Iteration   5: 3.229 ns/op
+[info] Iteration   6: 3.236 ns/op
+[info] Iteration   7: 3.238 ns/op
+[info] Iteration   8: 3.236 ns/op
+[info] Iteration   9: 3.241 ns/op
+[info] Iteration  10: 3.235 ns/op
+[info] Result "scalafix.benchmarks.ChildrenBenchmark.children_new":
+[info]   3.239 ±(99.9%) 0.012 ns/op [Average]
+[info]   (min, avg, max) = (3.229, 3.239, 3.258), stdev = 0.008
+[info]   CI (99.9%): [3.227, 3.251] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenBenchmark.children_new
+[info] # Parameters: (treeType = scala.meta.Term.Return)
+[info] # Run progress: 31.82% complete, ETA 00:50:22
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 9.364 ns/op
+[info] # Warmup Iteration   2: 8.767 ns/op
+[info] # Warmup Iteration   3: 8.413 ns/op
+[info] # Warmup Iteration   4: 8.409 ns/op
+[info] # Warmup Iteration   5: 8.445 ns/op
+[info] # Warmup Iteration   6: 8.195 ns/op
+[info] # Warmup Iteration   7: 8.241 ns/op
+[info] # Warmup Iteration   8: 8.374 ns/op
+[info] # Warmup Iteration   9: 8.403 ns/op
+[info] # Warmup Iteration  10: 8.456 ns/op
+[info] Iteration   1: 8.229 ns/op
+[info] Iteration   2: 8.231 ns/op
+[info] Iteration   3: 8.326 ns/op
+[info] Iteration   4: 8.334 ns/op
+[info] Iteration   5: 8.393 ns/op
+[info] Iteration   6: 8.190 ns/op
+[info] Iteration   7: 8.161 ns/op
+[info] Iteration   8: 8.357 ns/op
+[info] Iteration   9: 8.492 ns/op
+[info] Iteration  10: 8.362 ns/op
+[info] Result "scalafix.benchmarks.ChildrenBenchmark.children_new":
+[info]   8.308 ±(99.9%) 0.155 ns/op [Average]
+[info]   (min, avg, max) = (8.161, 8.308, 8.492), stdev = 0.103
+[info]   CI (99.9%): [8.152, 8.463] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenBenchmark.children_new
+[info] # Parameters: (treeType = scala.meta.Term.Match)
+[info] # Run progress: 36.36% complete, ETA 00:47:06
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 241.857 ns/op
+[info] # Warmup Iteration   2: 236.998 ns/op
+[info] # Warmup Iteration   3: 234.351 ns/op
+[info] # Warmup Iteration   4: 233.809 ns/op
+[info] # Warmup Iteration   5: 232.846 ns/op
+[info] # Warmup Iteration   6: 231.764 ns/op
+[info] # Warmup Iteration   7: 234.220 ns/op
+[info] # Warmup Iteration   8: 234.496 ns/op
+[info] # Warmup Iteration   9: 234.138 ns/op
+[info] # Warmup Iteration  10: 233.183 ns/op
+[info] Iteration   1: 233.427 ns/op
+[info] Iteration   2: 233.407 ns/op
+[info] Iteration   3: 232.740 ns/op
+[info] Iteration   4: 234.674 ns/op
+[info] Iteration   5: 234.009 ns/op
+[info] Iteration   6: 232.105 ns/op
+[info] Iteration   7: 233.152 ns/op
+[info] Iteration   8: 234.626 ns/op
+[info] Iteration   9: 233.724 ns/op
+[info] Iteration  10: 234.063 ns/op
+[info] Result "scalafix.benchmarks.ChildrenBenchmark.children_new":
+[info]   233.593 ±(99.9%) 1.219 ns/op [Average]
+[info]   (min, avg, max) = (232.105, 233.593, 234.674), stdev = 0.806
+[info]   CI (99.9%): [232.374, 234.811] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenBenchmark.children_new
+[info] # Parameters: (treeType = scala.meta.Term.If)
+[info] # Run progress: 40.91% complete, ETA 00:43:42
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 16.738 ns/op
+[info] # Warmup Iteration   2: 14.913 ns/op
+[info] # Warmup Iteration   3: 14.382 ns/op
+[info] # Warmup Iteration   4: 14.423 ns/op
+[info] # Warmup Iteration   5: 14.353 ns/op
+[info] # Warmup Iteration   6: 14.381 ns/op
+[info] # Warmup Iteration   7: 14.433 ns/op
+[info] # Warmup Iteration   8: 14.418 ns/op
+[info] # Warmup Iteration   9: 14.411 ns/op
+[info] # Warmup Iteration  10: 14.431 ns/op
+[info] Iteration   1: 14.518 ns/op
+[info] Iteration   2: 14.384 ns/op
+[info] Iteration   3: 14.386 ns/op
+[info] Iteration   4: 14.372 ns/op
+[info] Iteration   5: 14.429 ns/op
+[info] Iteration   6: 14.345 ns/op
+[info] Iteration   7: 14.371 ns/op
+[info] Iteration   8: 14.426 ns/op
+[info] Iteration   9: 14.370 ns/op
+[info] Iteration  10: 14.354 ns/op
+[info] Result "scalafix.benchmarks.ChildrenBenchmark.children_new":
+[info]   14.395 ±(99.9%) 0.077 ns/op [Average]
+[info]   (min, avg, max) = (14.345, 14.395, 14.518), stdev = 0.051
+[info]   CI (99.9%): [14.318, 14.473] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenBenchmark.children_new
+[info] # Parameters: (treeType = scala.meta.Term.Try)
+[info] # Run progress: 45.45% complete, ETA 00:40:20
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 40.364 ns/op
+[info] # Warmup Iteration   2: 38.979 ns/op
+[info] # Warmup Iteration   3: 38.436 ns/op
+[info] # Warmup Iteration   4: 38.492 ns/op
+[info] # Warmup Iteration   5: 38.441 ns/op
+[info] # Warmup Iteration   6: 38.711 ns/op
+[info] # Warmup Iteration   7: 38.471 ns/op
+[info] # Warmup Iteration   8: 38.477 ns/op
+[info] # Warmup Iteration   9: 38.711 ns/op
+[info] # Warmup Iteration  10: 38.671 ns/op
+[info] Iteration   1: 38.594 ns/op
+[info] Iteration   2: 38.461 ns/op
+[info] Iteration   3: 38.412 ns/op
+[info] Iteration   4: 38.579 ns/op
+[info] Iteration   5: 38.432 ns/op
+[info] Iteration   6: 38.753 ns/op
+[info] Iteration   7: 38.731 ns/op
+[info] Iteration   8: 38.413 ns/op
+[info] Iteration   9: 38.418 ns/op
+[info] Iteration  10: 38.589 ns/op
+[info] Result "scalafix.benchmarks.ChildrenBenchmark.children_new":
+[info]   38.538 ±(99.9%) 0.198 ns/op [Average]
+[info]   (min, avg, max) = (38.412, 38.538, 38.753), stdev = 0.131
+[info]   CI (99.9%): [38.341, 38.736] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenBenchmark.children_new
+[info] # Parameters: (treeType = scala.meta.Defn.Def)
+[info] # Run progress: 50.00% complete, ETA 00:36:57
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 363.336 ns/op
+[info] # Warmup Iteration   2: 348.541 ns/op
+[info] # Warmup Iteration   3: 348.161 ns/op
+[info] # Warmup Iteration   4: 346.038 ns/op
+[info] # Warmup Iteration   5: 349.001 ns/op
+[info] # Warmup Iteration   6: 349.718 ns/op
+[info] # Warmup Iteration   7: 349.062 ns/op
+[info] # Warmup Iteration   8: 347.488 ns/op
+[info] # Warmup Iteration   9: 348.388 ns/op
+[info] # Warmup Iteration  10: 347.781 ns/op
+[info] Iteration   1: 348.622 ns/op
+[info] Iteration   2: 347.302 ns/op
+[info] Iteration   3: 352.212 ns/op
+[info] Iteration   4: 348.355 ns/op
+[info] Iteration   5: 349.048 ns/op
+[info] Iteration   6: 349.543 ns/op
+[info] Iteration   7: 350.308 ns/op
+[info] Iteration   8: 351.553 ns/op
+[info] Iteration   9: 350.720 ns/op
+[info] Iteration  10: 351.996 ns/op
+[info] Result "scalafix.benchmarks.ChildrenBenchmark.children_new":
+[info]   349.966 ±(99.9%) 2.514 ns/op [Average]
+[info]   (min, avg, max) = (347.302, 349.966, 352.212), stdev = 1.663
+[info]   CI (99.9%): [347.452, 352.480] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenTraversalBenchmark.children_current
+[info] # Parameters: (size = XS)
+[info] # Run progress: 54.55% complete, ETA 00:33:35
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 282.521 ns/op
+[info] # Warmup Iteration   2: 274.882 ns/op
+[info] # Warmup Iteration   3: 274.153 ns/op
+[info] # Warmup Iteration   4: 274.843 ns/op
+[info] # Warmup Iteration   5: 275.284 ns/op
+[info] # Warmup Iteration   6: 273.901 ns/op
+[info] # Warmup Iteration   7: 273.669 ns/op
+[info] # Warmup Iteration   8: 275.746 ns/op
+[info] # Warmup Iteration   9: 274.290 ns/op
+[info] # Warmup Iteration  10: 275.344 ns/op
+[info] Iteration   1: 274.740 ns/op
+[info] Iteration   2: 275.296 ns/op
+[info] Iteration   3: 274.370 ns/op
+[info] Iteration   4: 274.694 ns/op
+[info] Iteration   5: 272.994 ns/op
+[info] Iteration   6: 275.777 ns/op
+[info] Iteration   7: 273.301 ns/op
+[info] Iteration   8: 274.118 ns/op
+[info] Iteration   9: 275.044 ns/op
+[info] Iteration  10: 274.489 ns/op
+[info] Result "scalafix.benchmarks.ChildrenTraversalBenchmark.children_current":
+[info]   274.482 ±(99.9%) 1.287 ns/op [Average]
+[info]   (min, avg, max) = (272.994, 274.482, 275.777), stdev = 0.851
+[info]   CI (99.9%): [273.195, 275.769] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenTraversalBenchmark.children_current
+[info] # Parameters: (size = S)
+[info] # Run progress: 59.09% complete, ETA 00:30:16
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 4423.412 ns/op
+[info] # Warmup Iteration   2: 4145.433 ns/op
+[info] # Warmup Iteration   3: 4198.017 ns/op
+[info] # Warmup Iteration   4: 4234.433 ns/op
+[info] # Warmup Iteration   5: 4165.744 ns/op
+[info] # Warmup Iteration   6: 4159.750 ns/op
+[info] # Warmup Iteration   7: 4146.931 ns/op
+[info] # Warmup Iteration   8: 4160.448 ns/op
+[info] # Warmup Iteration   9: 4182.422 ns/op
+[info] # Warmup Iteration  10: 4151.646 ns/op
+[info] Iteration   1: 4147.926 ns/op
+[info] Iteration   2: 4177.268 ns/op
+[info] Iteration   3: 4149.149 ns/op
+[info] Iteration   4: 4153.954 ns/op
+[info] Iteration   5: 4174.200 ns/op
+[info] Iteration   6: 4158.164 ns/op
+[info] Iteration   7: 4132.035 ns/op
+[info] Iteration   8: 4122.532 ns/op
+[info] Iteration   9: 4122.412 ns/op
+[info] Iteration  10: 4159.744 ns/op
+[info] Result "scalafix.benchmarks.ChildrenTraversalBenchmark.children_current":
+[info]   4149.738 ±(99.9%) 29.164 ns/op [Average]
+[info]   (min, avg, max) = (4122.412, 4149.738, 4177.268), stdev = 19.290
+[info]   CI (99.9%): [4120.574, 4178.903] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenTraversalBenchmark.children_current
+[info] # Parameters: (size = M)
+[info] # Run progress: 63.64% complete, ETA 00:26:54
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 151468.088 ns/op
+[info] # Warmup Iteration   2: 138745.173 ns/op
+[info] # Warmup Iteration   3: 132582.803 ns/op
+[info] # Warmup Iteration   4: 133802.104 ns/op
+[info] # Warmup Iteration   5: 133463.553 ns/op
+[info] # Warmup Iteration   6: 133706.866 ns/op
+[info] # Warmup Iteration   7: 133284.368 ns/op
+[info] # Warmup Iteration   8: 134713.968 ns/op
+[info] # Warmup Iteration   9: 134011.516 ns/op
+[info] # Warmup Iteration  10: 133812.183 ns/op
+[info] Iteration   1: 133399.455 ns/op
+[info] Iteration   2: 133493.781 ns/op
+[info] Iteration   3: 133823.733 ns/op
+[info] Iteration   4: 133507.658 ns/op
+[info] Iteration   5: 133256.451 ns/op
+[info] Iteration   6: 134499.048 ns/op
+[info] Iteration   7: 133636.611 ns/op
+[info] Iteration   8: 133559.309 ns/op
+[info] Iteration   9: 134350.340 ns/op
+[info] Iteration  10: 134392.519 ns/op
+[info] Result "scalafix.benchmarks.ChildrenTraversalBenchmark.children_current":
+[info]   133791.890 ±(99.9%) 687.719 ns/op [Average]
+[info]   (min, avg, max) = (133256.451, 133791.890, 134499.048), stdev = 454.883
+[info]   CI (99.9%): [133104.172, 134479.609] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenTraversalBenchmark.children_current
+[info] # Parameters: (size = L)
+[info] # Run progress: 68.18% complete, ETA 00:23:32
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 191360.239 ns/op
+[info] # Warmup Iteration   2: 180018.980 ns/op
+[info] # Warmup Iteration   3: 165556.712 ns/op
+[info] # Warmup Iteration   4: 167140.648 ns/op
+[info] # Warmup Iteration   5: 166015.162 ns/op
+[info] # Warmup Iteration   6: 165836.967 ns/op
+[info] # Warmup Iteration   7: 165377.966 ns/op
+[info] # Warmup Iteration   8: 165948.830 ns/op
+[info] # Warmup Iteration   9: 165180.461 ns/op
+[info] # Warmup Iteration  10: 164930.168 ns/op
+[info] Iteration   1: 165080.510 ns/op
+[info] Iteration   2: 167094.573 ns/op
+[info] Iteration   3: 165425.904 ns/op
+[info] Iteration   4: 165955.172 ns/op
+[info] Iteration   5: 166062.419 ns/op
+[info] Iteration   6: 165395.554 ns/op
+[info] Iteration   7: 167279.208 ns/op
+[info] Iteration   8: 166603.506 ns/op
+[info] Iteration   9: 166281.570 ns/op
+[info] Iteration  10: 169034.212 ns/op
+[info] Result "scalafix.benchmarks.ChildrenTraversalBenchmark.children_current":
+[info]   166421.263 ±(99.9%) 1764.272 ns/op [Average]
+[info]   (min, avg, max) = (165080.510, 166421.263, 169034.212), stdev = 1166.957
+[info]   CI (99.9%): [164656.991, 168185.535] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenTraversalBenchmark.children_current
+[info] # Parameters: (size = XL)
+[info] # Run progress: 72.73% complete, ETA 00:20:10
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 1089802.791 ns/op
+[info] # Warmup Iteration   2: 955688.485 ns/op
+[info] # Warmup Iteration   3: 956791.104 ns/op
+[info] # Warmup Iteration   4: 960716.485 ns/op
+[info] # Warmup Iteration   5: 956335.507 ns/op
+[info] # Warmup Iteration   6: 955792.123 ns/op
+[info] # Warmup Iteration   7: 1002742.416 ns/op
+[info] # Warmup Iteration   8: 992360.769 ns/op
+[info] # Warmup Iteration   9: 1000480.953 ns/op
+[info] # Warmup Iteration  10: 995364.689 ns/op
+[info] Iteration   1: 987296.254 ns/op
+[info] Iteration   2: 955117.801 ns/op
+[info] Iteration   3: 953828.327 ns/op
+[info] Iteration   4: 951107.947 ns/op
+[info] Iteration   5: 966456.139 ns/op
+[info] Iteration   6: 954276.959 ns/op
+[info] Iteration   7: 955131.753 ns/op
+[info] Iteration   8: 958658.753 ns/op
+[info] Iteration   9: 957044.534 ns/op
+[info] Iteration  10: 954688.925 ns/op
+[info] Result "scalafix.benchmarks.ChildrenTraversalBenchmark.children_current":
+[info]   959360.739 ±(99.9%) 16086.024 ns/op [Average]
+[info]   (min, avg, max) = (951107.947, 959360.739, 987296.254), stdev = 10639.909
+[info]   CI (99.9%): [943274.715, 975446.763] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenTraversalBenchmark.children_new
+[info] # Parameters: (size = XS)
+[info] # Run progress: 77.27% complete, ETA 00:16:48
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 255.764 ns/op
+[info] # Warmup Iteration   2: 243.955 ns/op
+[info] # Warmup Iteration   3: 246.090 ns/op
+[info] # Warmup Iteration   4: 244.488 ns/op
+[info] # Warmup Iteration   5: 245.362 ns/op
+[info] # Warmup Iteration   6: 244.953 ns/op
+[info] # Warmup Iteration   7: 244.631 ns/op
+[info] # Warmup Iteration   8: 244.743 ns/op
+[info] # Warmup Iteration   9: 245.352 ns/op
+[info] # Warmup Iteration  10: 244.413 ns/op
+[info] Iteration   1: 246.870 ns/op
+[info] Iteration   2: 245.595 ns/op
+[info] Iteration   3: 246.979 ns/op
+[info] Iteration   4: 245.046 ns/op
+[info] Iteration   5: 245.377 ns/op
+[info] Iteration   6: 244.686 ns/op
+[info] Iteration   7: 245.015 ns/op
+[info] Iteration   8: 245.079 ns/op
+[info] Iteration   9: 247.895 ns/op
+[info] Iteration  10: 244.851 ns/op
+[info] Result "scalafix.benchmarks.ChildrenTraversalBenchmark.children_new":
+[info]   245.739 ±(99.9%) 1.668 ns/op [Average]
+[info]   (min, avg, max) = (244.686, 245.739, 247.895), stdev = 1.103
+[info]   CI (99.9%): [244.071, 247.408] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenTraversalBenchmark.children_new
+[info] # Parameters: (size = S)
+[info] # Run progress: 81.82% complete, ETA 00:13:27
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 4634.520 ns/op
+[info] # Warmup Iteration   2: 4379.934 ns/op
+[info] # Warmup Iteration   3: 4384.011 ns/op
+[info] # Warmup Iteration   4: 4379.209 ns/op
+[info] # Warmup Iteration   5: 4399.155 ns/op
+[info] # Warmup Iteration   6: 4371.639 ns/op
+[info] # Warmup Iteration   7: 4461.325 ns/op
+[info] # Warmup Iteration   8: 4378.736 ns/op
+[info] # Warmup Iteration   9: 4368.291 ns/op
+[info] # Warmup Iteration  10: 4370.720 ns/op
+[info] Iteration   1: 4372.387 ns/op
+[info] Iteration   2: 4378.542 ns/op
+[info] Iteration   3: 4366.480 ns/op
+[info] Iteration   4: 4401.297 ns/op
+[info] Iteration   5: 4364.380 ns/op
+[info] Iteration   6: 4377.613 ns/op
+[info] Iteration   7: 4330.553 ns/op
+[info] Iteration   8: 4326.347 ns/op
+[info] Iteration   9: 4327.649 ns/op
+[info] Iteration  10: 4338.058 ns/op
+[info] Result "scalafix.benchmarks.ChildrenTraversalBenchmark.children_new":
+[info]   4358.331 ±(99.9%) 39.276 ns/op [Average]
+[info]   (min, avg, max) = (4326.347, 4358.331, 4401.297), stdev = 25.978
+[info]   CI (99.9%): [4319.055, 4397.606] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenTraversalBenchmark.children_new
+[info] # Parameters: (size = M)
+[info] # Run progress: 86.36% complete, ETA 00:10:05
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 124029.105 ns/op
+[info] # Warmup Iteration   2: 109243.078 ns/op
+[info] # Warmup Iteration   3: 105954.161 ns/op
+[info] # Warmup Iteration   4: 105789.041 ns/op
+[info] # Warmup Iteration   5: 106005.382 ns/op
+[info] # Warmup Iteration   6: 105669.929 ns/op
+[info] # Warmup Iteration   7: 105937.068 ns/op
+[info] # Warmup Iteration   8: 106179.578 ns/op
+[info] # Warmup Iteration   9: 105928.529 ns/op
+[info] # Warmup Iteration  10: 106815.229 ns/op
+[info] Iteration   1: 106275.618 ns/op
+[info] Iteration   2: 106117.155 ns/op
+[info] Iteration   3: 106023.984 ns/op
+[info] Iteration   4: 106635.950 ns/op
+[info] Iteration   5: 106249.807 ns/op
+[info] Iteration   6: 106521.357 ns/op
+[info] Iteration   7: 106269.117 ns/op
+[info] Iteration   8: 106763.798 ns/op
+[info] Iteration   9: 105943.349 ns/op
+[info] Iteration  10: 106003.677 ns/op
+[info] Result "scalafix.benchmarks.ChildrenTraversalBenchmark.children_new":
+[info]   106280.381 ±(99.9%) 422.182 ns/op [Average]
+[info]   (min, avg, max) = (105943.349, 106280.381, 106763.798), stdev = 279.248
+[info]   CI (99.9%): [105858.199, 106702.564] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenTraversalBenchmark.children_new
+[info] # Parameters: (size = L)
+[info] # Run progress: 90.91% complete, ETA 00:06:43
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 175540.865 ns/op
+[info] # Warmup Iteration   2: 162217.816 ns/op
+[info] # Warmup Iteration   3: 164759.848 ns/op
+[info] # Warmup Iteration   4: 151126.809 ns/op
+[info] # Warmup Iteration   5: 150771.751 ns/op
+[info] # Warmup Iteration   6: 152843.382 ns/op
+[info] # Warmup Iteration   7: 150811.250 ns/op
+[info] # Warmup Iteration   8: 150773.877 ns/op
+[info] # Warmup Iteration   9: 150960.380 ns/op
+[info] # Warmup Iteration  10: 151201.606 ns/op
+[info] Iteration   1: 150815.430 ns/op
+[info] Iteration   2: 155647.640 ns/op
+[info] Iteration   3: 158164.570 ns/op
+[info] Iteration   4: 158596.302 ns/op
+[info] Iteration   5: 158184.986 ns/op
+[info] Iteration   6: 152686.252 ns/op
+[info] Iteration   7: 151698.909 ns/op
+[info] Iteration   8: 152376.033 ns/op
+[info] Iteration   9: 152438.342 ns/op
+[info] Iteration  10: 151751.451 ns/op
+[info] Result "scalafix.benchmarks.ChildrenTraversalBenchmark.children_new":
+[info]   154235.992 ±(99.9%) 4658.113 ns/op [Average]
+[info]   (min, avg, max) = (150815.430, 154235.992, 158596.302), stdev = 3081.053
+[info]   CI (99.9%): [149577.879, 158894.104] (assumes normal distribution)
+[info] # JMH version: 1.21
+[info] # VM version: JDK 1.8.0_151, Java HotSpot(TM) 64-Bit Server VM, 25.151-b12
+[info] # VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/bin/java
+[info] # VM options: <none>
+[info] # Warmup: 10 iterations, 10 s each
+[info] # Measurement: 10 iterations, 10 s each
+[info] # Timeout: 10 min per iteration
+[info] # Threads: 1 thread, will synchronize iterations
+[info] # Benchmark mode: Average time, time/op
+[info] # Benchmark: scalafix.benchmarks.ChildrenTraversalBenchmark.children_new
+[info] # Parameters: (size = XL)
+[info] # Run progress: 95.45% complete, ETA 00:03:21
+[info] # Fork: 1 of 1
+[info] # Warmup Iteration   1: 1087259.419 ns/op
+[info] # Warmup Iteration   2: 989187.238 ns/op
+[info] # Warmup Iteration   3: 974629.872 ns/op
+[info] # Warmup Iteration   4: 979039.099 ns/op
+[info] # Warmup Iteration   5: 969824.034 ns/op
+[info] # Warmup Iteration   6: 971410.753 ns/op
+[info] # Warmup Iteration   7: 1012702.449 ns/op
+[info] # Warmup Iteration   8: 1023370.281 ns/op
+[info] # Warmup Iteration   9: 1024069.133 ns/op
+[info] # Warmup Iteration  10: 1034756.137 ns/op
+[info] Iteration   1: 1022724.818 ns/op
+[info] Iteration   2: 972181.146 ns/op
+[info] Iteration   3: 969137.057 ns/op
+[info] Iteration   4: 971324.190 ns/op
+[info] Iteration   5: 970399.069 ns/op
+[info] Iteration   6: 976749.705 ns/op
+[info] Iteration   7: 976153.464 ns/op
+[info] Iteration   8: 983084.609 ns/op
+[info] Iteration   9: 972559.433 ns/op
+[info] Iteration  10: 975916.010 ns/op
+[info] Result "scalafix.benchmarks.ChildrenTraversalBenchmark.children_new":
+[info]   979022.950 ±(99.9%) 24007.214 ns/op [Average]
+[info]   (min, avg, max) = (969137.057, 979022.950, 1022724.818), stdev = 15879.286
+[info]   CI (99.9%): [955015.736, 1003030.164] (assumes normal distribution)
+[info] # Run complete. Total time: 01:14:01
+[info] REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+[info] why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+[info] experiments, perform baseline and negative tests that provide experimental control, make sure
+[info] the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+[info] Do not assume the numbers tell you what you want them to tell.
+[info] Benchmark                                    (size)              (treeType)  Mode  Cnt       Score       Error  Units
+[info] ChildrenBenchmark.children_current              N/A    scala.meta.Term.Name  avgt   10       3.124 ±     0.012  ns/op
+[info] ChildrenBenchmark.children_current              N/A  scala.meta.Term.Return  avgt   10       6.691 ±     0.537  ns/op
+[info] ChildrenBenchmark.children_current              N/A   scala.meta.Term.Match  avgt   10      41.017 ±     0.243  ns/op
+[info] ChildrenBenchmark.children_current              N/A      scala.meta.Term.If  avgt   10      13.517 ±     0.052  ns/op
+[info] ChildrenBenchmark.children_current              N/A     scala.meta.Term.Try  avgt   10      76.432 ±     0.386  ns/op
+[info] ChildrenBenchmark.children_current              N/A     scala.meta.Defn.Def  avgt   10    1425.630 ±     4.864  ns/op
+[info] ChildrenBenchmark.children_new                  N/A    scala.meta.Term.Name  avgt   10       3.239 ±     0.012  ns/op
+[info] ChildrenBenchmark.children_new                  N/A  scala.meta.Term.Return  avgt   10       8.308 ±     0.155  ns/op
+[info] ChildrenBenchmark.children_new                  N/A   scala.meta.Term.Match  avgt   10     233.593 ±     1.219  ns/op
+[info] ChildrenBenchmark.children_new                  N/A      scala.meta.Term.If  avgt   10      14.395 ±     0.077  ns/op
+[info] ChildrenBenchmark.children_new                  N/A     scala.meta.Term.Try  avgt   10      38.538 ±     0.198  ns/op
+[info] ChildrenBenchmark.children_new                  N/A     scala.meta.Defn.Def  avgt   10     349.966 ±     2.514  ns/op
+[info] ChildrenTraversalBenchmark.children_current      XS                     N/A  avgt   10     274.482 ±     1.287  ns/op
+[info] ChildrenTraversalBenchmark.children_current       S                     N/A  avgt   10    4149.738 ±    29.164  ns/op
+[info] ChildrenTraversalBenchmark.children_current       M                     N/A  avgt   10  133791.890 ±   687.719  ns/op
+[info] ChildrenTraversalBenchmark.children_current       L                     N/A  avgt   10  166421.263 ±  1764.272  ns/op
+[info] ChildrenTraversalBenchmark.children_current      XL                     N/A  avgt   10  959360.739 ± 16086.024  ns/op
+[info] ChildrenTraversalBenchmark.children_new          XS                     N/A  avgt   10     245.739 ±     1.668  ns/op
+[info] ChildrenTraversalBenchmark.children_new           S                     N/A  avgt   10    4358.331 ±    39.276  ns/op
+[info] ChildrenTraversalBenchmark.children_new           M                     N/A  avgt   10  106280.381 ±   422.182  ns/op
+[info] ChildrenTraversalBenchmark.children_new           L                     N/A  avgt   10  154235.992 ±  4658.113  ns/op
+[info] ChildrenTraversalBenchmark.children_new          XL                     N/A  avgt   10  979022.950 ± 24007.214  ns/op
+[info] Benchmark result is saved to jmh-result.json
+[success] Total time: 4446 s, completed Oct 7, 2018 12:50:06 PM
